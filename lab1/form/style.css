@@ -51,6 +51,7 @@ table {
     display: flex;
     justify-content: center;
     align-content: space-between;
+
 }
 
 .topbg{
@@ -62,7 +63,7 @@ table {
 
 .big_rect{
     display:flex;
-    height: 1000px;
+    height: 900px;
     width: 600px;
     margin: -100px;
     padding: 30px;
@@ -77,10 +78,4 @@ table {
 
 .form_element{
     padding-top: 20px;
-}
-
-input[name="year"]{
-    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
-    -moz-appearance: checkbox;    /* Firefox */
-    -ms-appearance: checkbox;
 }
