@@ -12,14 +12,14 @@
 <div class="wrapper">
     <div class="big_rect">
         <div class="header">Password request form</div>
-        <div class="form_element"><p>Plese fill your name</p><input type="text"/></div>
+        <div class="form_element"><p>Plese fill your name</p><input type="text" placeholder="My name" ></div>
         <div class="form_element"><p>What color you like<br></p>
             <p><input name="color" type="radio" value="red" checked>Red</p>
             <p><input name="color" type="radio" value="green">Green</p>
             <p><input name="color" type="radio" value="blue">Blue</p>
             <p><input name="color" type="radio" value="black">Black</p>
             <p><input name="color" type="radio" value="White">White</p>
-            <p><input name="color" type="radio" value="other">Other:<input type="text"/></p>
+            <p><input name="color" type="radio" value="other">Other: <input type="text"/></p>
         </div>
         <div class="form_element"><p>What town you like more?</p>
             <select size="1" name="city">
@@ -32,16 +32,17 @@
                 <option value="vitebsk">Mogilev</option>
             </select></div>
         <div class="form_element"><p>Please describe (at least 50 symbols on symbols) your favorite programming language</p>
-            <input type="text"></div>
+            <input type="text" placeholder="My answer"></div>
         <div class="form_element"><p>What years of education did you really like?</p>
-            <p><input type="checkbox" id="first" name="year" value="first">First</p>
-            <p><input type="checkbox" id="second" name="year" value="second">Second</p>
+            <p><input type="checkbox" id="first" name="year" value="first" class="kek">First</p>
+            <p><input type="checkbox" id="second" name="year" value="second" class="kek">Second</p>
             <p><input type="checkbox" id="third" name="year" value="third">Third</p>
             <p><input type="checkbox" id="fourth" name="year" value="fourth">Fourth</p>
         </div>
         <div class="form_element"><p>Please send any image</p><input type="file"></div>
         <div class="form_element"><p>Set last Monday Monday</p><input type="date"></div>
-        <div class="form_element"><input type="submit"></div>
+        <div class="form_element"><input type="submit" value="Submit"></div>
     </div>
+</div>
 </body>
 </html>
